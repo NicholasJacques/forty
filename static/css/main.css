@@ -2864,7 +2864,7 @@
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: paleturquoise;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
