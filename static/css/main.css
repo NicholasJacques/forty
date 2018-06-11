@@ -3438,7 +3438,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: white;
+			background-color: lightyellow;
 			content: '';
 			display: block;
 			height: 100%;
