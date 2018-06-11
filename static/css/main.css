@@ -2817,7 +2817,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.45;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -2856,7 +2856,7 @@
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: white;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
