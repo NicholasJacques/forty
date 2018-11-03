@@ -11,6 +11,11 @@
                 {{ range .Site.Params.Footer.quicklinks}}
                 <li>{{ .text }} <a href="{{ .url | safeHTML }}">{{ .alt }}</a></li>
                 {{ end }}
+                {{ range .Site.Params.Navigation.button1 }}
+                    <li><a href="{{ .Site.BaseURL | .url }}" class="button special fit">{{ .name }}</a></li>
+                {{ end }}
+            </ul>
+            <ul class="contact-button">
             </ul>
         </div>
     </footer>
