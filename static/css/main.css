@@ -3438,12 +3438,12 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-color: lightyellow;
+			background-color: #242843;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.35;
+			opacity: 0.85;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3502,8 +3502,8 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
-					font-weight: 600;
+					font-size: 0.8em;
+					font-weight: 800;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
