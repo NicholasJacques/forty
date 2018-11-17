@@ -14,8 +14,14 @@
                 {{ range .Site.Params.Navigation.button1 }}
                     <li><a href="{{ .Site.BaseURL | .url }}" class="button special fit">{{ .name }}</a></li>
                 {{ end }}
-            </ul>
-            <ul class="contact-button">
+                <li class="contact-button">
+                </li>
+                <li class="psychology-today-badge pull-right" style="border-left: 0;">
+                    <!-- Professional verification provided by Psychology Today -->                    
+                    <a href="https://www.psychologytoday.com/profile/369342" class="sx-verified-seal"></a> 
+                    <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="369342" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="></script> 
+                    <!-- End Verification -->
+                </li>
             </ul>
         </div>
     </footer>
